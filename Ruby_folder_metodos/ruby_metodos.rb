@@ -13,3 +13,12 @@
 #=> Hola Moni te estamos esperando! Soy Rolando.
 #=> Hola Pamela te estamos esperando! Soy Rolando.
 
+p "Ingresa el nombre"
+print "-> "
+
+nombre = gets.chomp
+
+def mensaje(nombre)
+  "Hola " + nombre + " te estamos esperando! Soy Rolando."
+end
+p mensaje(nombre)
